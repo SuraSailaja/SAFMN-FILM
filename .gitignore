@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets / local data
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Training outputs / checkpoints
+experiments/
+results/
+tb_logger/
+wandb/
+
+# Project-generated visualizations / analysis outputs
+visual_comparisons/
+
+# Logs
+*.log
+
+# Local inspection / scratch files
+safmn_inspection.txt
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
